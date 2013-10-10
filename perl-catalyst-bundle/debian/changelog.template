@@ -1,0 +1,5 @@
+perl-catalyst-bundle (0.0.1-1tagman%BUILD%) precise; urgency=low
+
+  * Release of version 0.0.1.
+
+ -- Vaidas Jablonskis <vaidas.jablonskis@tagman.com>  %TIMESTAMP%

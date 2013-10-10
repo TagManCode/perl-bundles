@@ -1,0 +1,15 @@
+Source: perl-catalyst-bundle
+Section: universe/perl
+Priority: optional
+Build-Depends: debhelper (>= 8),
+ perl,
+Maintainer: Vaidas Jablonskis <vaidas.jablonskis@tagman.com>
+Uploaders: Vaidas Jablonskis <vaidas.jablonskis@tagman.com>
+Standards-Version: 3.9.3
+Homepage: https://github.com/TagManCode/perl-bundles
+
+Package: perl-catalyst-bundle
+Architecture: any
+Depends: perl,
+Description: Perl Bundle package for Catalyst using Task::Catalyst
+

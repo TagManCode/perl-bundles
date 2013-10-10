@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+
+override_dh_auto_build:
+	curl -s -L http://cpanmin.us | perl - App::cpanminus
+
+	/tmp/buildd/perl5/bin/cpanm --local-lib perl5 --no-interactive -n --mirror-only \
+	--mirror http://cpan.dev.tagman.com/cpan --mirror http://cpan.etla.org/ Task::Catalyst
+
+override_dh_auto_test:
+
+override_dh_auto_install:
+
