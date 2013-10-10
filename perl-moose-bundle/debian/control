@@ -1,0 +1,16 @@
+Source: perl-moose-bundle
+Section: universe/perl
+Priority: optional
+Build-Depends: debhelper (>= 8),
+ curl,
+ perl,
+Maintainer: Vaidas Jablonskis <vaidas.jablonskis@tagman.com>
+Uploaders: Vaidas Jablonskis <vaidas.jablonskis@tagman.com>
+Standards-Version: 3.9.3
+Homepage: https://github.com/TagManCode/perl-bundles
+
+Package: perl-moose-bundle
+Architecture: any
+Depends: perl,
+Description: Perl Bundle package for Moose using Task::Moose
+
