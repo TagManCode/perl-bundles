@@ -2,6 +2,7 @@ Source: perl-catalyst-bundle
 Section: universe/perl
 Priority: optional
 Build-Depends: debhelper (>= 8),
+ curl,
  perl,
 Maintainer: Vaidas Jablonskis <vaidas.jablonskis@tagman.com>
 Uploaders: Vaidas Jablonskis <vaidas.jablonskis@tagman.com>
